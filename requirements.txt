@@ -4,4 +4,4 @@ tensorflow_hub==0.13.0
 Pillow
 matplotlib
 numpy
-cv2==23.0.1
+cv2==4.7.0
