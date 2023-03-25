@@ -76,7 +76,7 @@ def draw_bounding_box_on_image(image,
         text_bottom -= text_height - 2 * margin
 
 
-def draw_boxes(image, boxes, class_names, scores, max_boxes=10, min_score=0.1):
+def draw_boxes(image, boxes, class_names, scores, max_boxes=5, min_score=0.1):
     colors = list(ImageColor.colormap.values())
 
     try:
