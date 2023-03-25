@@ -1,7 +1,7 @@
 # 以下を「model.py」に書き込み
 
 #TensorFlow,TensorFlow Hub
-import tensorflow as tf
+#import tensorflow as tf
 import tensorflow_hub as hub
 
 # イメージの出力のためのライブラリ
