@@ -46,7 +46,7 @@ st.set_option("deprecation.showfileUploaderEncoding", False)
 st.sidebar.title("物体検出アプリ")
 st.sidebar.write("「モデル：ssd+mobilenet V2」を使用")
 st.sidebar.write("")
-img_source = st.sidebar.radio("画像のソースを選択してください。",
+img_source = st.sidebar.radio("画像のソースを選択してください。　次の画像を判定する場合は、今の画像を閉じてください",
                               ("画像をアップロード", "カメラで撮影"))
 
 if img_source == "画像をアップロード":
